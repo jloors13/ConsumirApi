@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConsumirApi">
         <activity
-            android:name=".supabaseApi"
+            android:name=".MainActivity2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

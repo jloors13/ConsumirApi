@@ -20,7 +20,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-public class supabaseApi extends AppCompatActivity {
+public class MainActivity2 extends AppCompatActivity {
 
     TextView txtListasupabase;
 
@@ -86,8 +86,8 @@ public class supabaseApi extends AppCompatActivity {
 
                 Map<String, String> headers = new HashMap<>();
 
-                headers.put("apikey", "xxxxx");
-                headers.put("Authorization", "Bearer xxxxx");
+                headers.put("apikey", "sb_publishable_xxxxx");
+                headers.put("Authorization", "Bearer sb_publishable_xxxxx");
 
                 return headers;
             }
